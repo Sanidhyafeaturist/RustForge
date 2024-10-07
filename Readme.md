@@ -1,5 +1,8 @@
 # RustForge
 
+![About Rust](RustForge/OIP.jpeg)
+
+
 RustForge is a powerful and flexible framework designed to streamline application development in Rust. It provides core functionalities, routing, data access, templating, and more, enabling developers to build robust applications quickly and efficiently.
 
 ## Features
