@@ -1,0 +1,23 @@
+[package]
+name = "RustForge"
+version = "1.0"
+edition = "2024"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+rusqlite = "0.26" # SQLite database integration
+reqwest = { version = "0.11", features = ["blocking", "json"] } # HTTP client for API calls
+
+[dev-dependencies]
+# Dependencies for testing
+mockito = "0.31" # For mocking HTTP requests in tests
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[profile.dev]
+opt-level = 1
+
+[profile.release]
+opt-level = 3
