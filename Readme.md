@@ -64,8 +64,6 @@ Contributions are welcome! Please follow these steps:
 3. Make your changes and commit them.
 4. Submit a pull request for review.
 
-For more detailed contribution guidelines, see the `CONTRIBUTING.md` file.
-
 ## Community
 
 Join the RustForge community for support, discussions, and sharing your projects. Feel free to ask questions and share your experiences!
